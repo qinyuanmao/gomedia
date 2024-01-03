@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/yapingcat/gomedia/go-codec"
-	"github.com/yapingcat/gomedia/go-mpeg2"
+	"github.com/qinyuanmao/gomedia/go-codec"
+	"github.com/qinyuanmao/gomedia/go-mpeg2"
 )
 
 func TestCreateMp4Reader(t *testing.T) {

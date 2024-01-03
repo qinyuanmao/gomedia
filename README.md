@@ -3,12 +3,12 @@
  
 ## Installation
 ```
-go get github.com/yapingcat/gomedia
+go get github.com/qinyuanmao/gomedia
 ```
 
 
 ## H264/H265/AAC/VP8/OPUS/MP3
- [USAGE](https://github.com/yapingcat/gomedia/blob/main/go-codec/README.md)
+ [USAGE](https://github.com/qinyuanmao/gomedia/blob/main/go-codec/README.md)
   - decode sps/pps/vps/slice header
   - decode HEVCDecoderConfigurationRecord/AVCDecoderConfigurationRecord/AAC-ADTS/AudioSpecificConfiguration
   - encode HEVCDecoderConfigurationRecord/AVCDecoderConfigurationRecord/AAC-ADTS/AudioSpecificConfiguration
@@ -98,7 +98,7 @@ go get github.com/yapingcat/gomedia
   
 ## rtmp
   
-  [USAGE](https://github.com/yapingcat/gomedia/blob/main/go-rtmp/README.md)
+  [USAGE](https://github.com/qinyuanmao/gomedia/blob/main/go-rtmp/README.md)
   
   - support client/server
   - support play/publish

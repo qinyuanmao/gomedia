@@ -1,7 +1,7 @@
 ## usage
-rtmp库只负责rtmp协议层面的解析，网络链接(一般为tcp)需要调用方自己去管理和收发数据。调用方只需要把从网络中收到的rtmp数据**input**到rtmp库，把rtmp库**output**出来的数据发送到网络即可
+rtmp 库只负责 rtmp 协议层面的解析，网络链接 (一般为 tcp) 需要调用方自己去管理和收发数据。调用方只需要把从网络中收到的 rtmp 数据**input**到 rtmp 库，把 rtmp 库**output**出来的数据发送到网络即可
 
-rtmp拉流客户端为例子
+rtmp 拉流客户端为例子
 ```golang
 //step1 连接远端rtmp服务器
 conn,err := net.Dial("tcp4", host)
